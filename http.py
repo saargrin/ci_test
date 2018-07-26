@@ -20,7 +20,7 @@ try:
 	#Create a web server and define the handler to manage the
 	#incoming request
 	server = HTTPServer(('', PORT_NUMBER), myHandler)
-	print 'Started httpserver on port ' , PORT_NUMBER
+	print '1 Started httpserver on port ' , PORT_NUMBER
 	
 	#Wait forever for incoming htto requests
 	server.serve_forever()
